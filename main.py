@@ -5,7 +5,7 @@ api_id = 21235409
 api_hash = 'e20d5d2975a85d484d7fb030e6cbf437'
 
 SOURCE_CHAT = -1002759525337
-TARGET_CHAT = -4901150021
+TARGET_CHAT = -1002724331058
 
 client = TelegramClient('forward_bot_session', api_id, api_hash)
 
