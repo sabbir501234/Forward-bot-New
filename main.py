@@ -4,8 +4,8 @@ from telethon.tl.types import MessageMediaPhoto, MessageMediaDocument
 api_id = 21235409
 api_hash = 'e20d5d2975a85d484d7fb030e6cbf437'
 
-SOURCE_CHAT = -1002759525337
-TARGET_CHAT = -1002724331058
+SOURCE_CHAT = -1002825701159
+TARGET_CHAT = -1002899324768
 
 client = TelegramClient('forward_bot_session', api_id, api_hash)
 
@@ -35,3 +35,4 @@ async def main():
 if __name__ == '__main__':
     import asyncio
     asyncio.run(main())
+
